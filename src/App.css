@@ -1,49 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .App {
+
   text-align: center;
-  height:100%;
-}
-
-.App-header {
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(5px + 1vmin);
-  color: white;
-  background-color:blueviolet;
-  opacity: 0.8;
-
-}
-
-.Logo {
-
-  opacity: 1;
-  height:80px;
-  width:80px;
-  margin: 5px;
-
-}
-
-.title{
-
-    font-size: 2.5em;
-    margin-block-end: 0.2em !important;
-
-}
-
-.strapline{
-
-  font-size: 1em;
-  margin-block-start: 0.2em !important;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
 
 }
 
 .fill-window {
   
-  height: 100%;
+  min-height: 100%;
   position: absolute;
   left: 0;
   width: 100%;
-  overflow: hidden;
+
 }
+
+a {
+
+  text-decoration: none !important;
+
+}
+
+.emergency {
+
+  display:absolute;
+  top: 0px;
+  z-index: -1;
+  background-image: url(./images/emergency.jpg);
+  background-color: red;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  box-shadow: inset 0 0 0 1000px rgba(255, 0, 0, 0.53);
+  width:100%;
+  height: 50%;
+
+
+
+}
+
+.mainClass {
+
+  height: 100vh;
+  width: 100%;
+
+}
+
+.emergencyBtn{
+
+  height: 250px;
+  width: 250px;
+  background-color: rgba(255, 0, 0, 0.3);
+  color: white;
+  text-decoration: none !important;
+  text-shadow: 2px 2px 5px black;
+  border-top: 4px;
+  border-left: 4px;
+  border-right: 4px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 40px 40px 0px 0px;
+
+}
+
+.routeBtn{
+
+  height: 250px;
+  width: 250px;
+  background-color: rgba(0, 8, 255, 0.3);
+  color: white;
+  text-decoration: none !important;
+  text-shadow: 2px 2px 5px black;
+  border-top: 0px;
+  border-left: 4px;
+  border-right: 4px;
+  border-bottom: 4px;
+  border-style: solid;
+  border-color: rgba(0, 8, 255, 1);
+  border-radius: 0px 0px 40px 40px;
+
+}
+
+.route {
+
+  display:absolute;
+  top: 50%;
+  z-index: -1;
+  background-image: url(./images/women.jpg);
+  background-color: rgb(0, 34, 255);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  box-shadow: inset 0 0 0 1000px rgba(0, 34, 255, 0.7);
+  width:100%;
+  height: 50%;
+
+}
+
+.flex-center {
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+
+}
+
+.flex-bottom {
+
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+
+
+}
+
+.flex-top {
+
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+
+
+}
+
+.quarter {
+
+  width: 50%;
+  height: 50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+
+}
+
+.doncaster {
+
+  z-index: -1;
+  background-image: url('./images/Doncaster_Town_Center.JPG');
+  background-color: rgb(158, 28, 100);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  box-shadow: inset 0 0 0 1000px rgba(105, 0, 110, 0.9);
+  color: white;
+  text-shadow: 2px 2px 5px black;
+
+
+}
+
+
+.barnsley {
+
+  z-index: -1;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/85/Town_Centre_Showing_Peel_Square.JPG');
+  background-color: rgb(0, 34, 255);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  box-shadow: inset 0 0 0 1000px rgba(90, 56, 89, 0.9);
+  color: white;
+  text-shadow: 2px 2px 5px black;
+
+}
+
+.rotherham {
+
+  z-index: -1;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d5/Rotherham%2C_England%2C_2_May_2010_%2820%29%2C_Rotherham_fountain.jpg');
+  background-color: rgb(0, 34, 255);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  box-shadow: inset 0 0 0 1000px rgba(0, 37, 84, 0.9);
+  color: white;
+  text-shadow: 2px 2px 5px black;
+
+
+}
+
+
+.sheffield {
+
+  z-index: -1;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f3/Sheffield_-_S1_%28City_Centre%29_-_geograph.org.uk_-_2981034.jpg');
+  background-color: rgb(0, 34, 255);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  box-shadow: inset 0 0 0 1000px rgba(18, 43, 60, 0.9);
+  color: white;
+  text-shadow: 2px 2px 5px black;
+
+
+}
+
+.live {
+
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+
+}
+
+.live {
+
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+
+}
+
+.barnsleyText {
+
+  font-weight: bold;
+
+}
+
+.doncasterText {
+
+  font-weight: bold;
+  
+}
+
+.rotherhamText {
+
+  font-weight: bold;
+  
+}
+
+
+.sheffieldText {
+
+  font-weight: bold;
+  
+}
+
+
+.callNowWrapper {
+
+  width: 50%;
+  background-color: black;
+  color: white;
+  margin: auto;
+  padding: 20px;
+
+}
+
+.pageWrapper {
+
+  margin-bottom: 80px;
+
+}
+
+.emergencyContact {
+
+  color: white;
+  font-size: 3.5em;
+  font-weight: bold;
+
+}
+
+.smallText {
+
+  font-size: 0.5em;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .callNowWrapper {
+
+    width: 90%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 20px;
+  
+  }
+
+  .emergencyContact {
+
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+  
+  }
+  
+}
+

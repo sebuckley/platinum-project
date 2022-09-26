@@ -4,16 +4,23 @@ import Logo from  './images/cropped-qpj_emblem.png';
 
 export default function AppHeader() {
 
+    setTimeout(() => {
+
+        const header = document.getElementById('header');
+        header.style.display = "none";
+
+    }, 10000);
+
     return(
 
-        <header className="App-header">
+        <header id="header" className="App-header">
        
-            <img src={Logo} class='Logo' alt='Platinum Jubilee Logo'/>
+            <img src={Logo} className='Logo' alt='Platinum Jubilee Logo'/>
             <div>
-                <h3 class='title'>
+                <h3 className='title'>
                 PLATINUM PROJECT
                 </h3>
-                <p class='strapline'>DWP South Yorkshire District</p>
+                <p className='strapline'>DWP South Yorkshire District</p>
             </div>
        
         </header>
