@@ -1,3 +1,9 @@
+:root {
+  --fontSizeTownName: 2em;
+  --borderRadius: 40px;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .App {
@@ -64,6 +70,7 @@ a {
   border-style: solid;
   border-color: red;
   border-radius: 40px 40px 0px 0px;
+  
 
 }
 
@@ -210,7 +217,7 @@ a {
 .live {
 
   font-family: 'Pacifico', cursive;
-  font-size: 1.5em;
+  font-size: 1.2em;
 
 }
 
@@ -247,6 +254,19 @@ a {
   color: white;
   margin: auto;
   padding: 20px;
+  border-radius: var(--borderRadius);
+
+}
+
+.callNowWrapperWhite {
+
+  width: 50%;
+  background-color: white;
+  color: black;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: var(--borderRadius);
 
 }
 
@@ -261,12 +281,24 @@ a {
   color: white;
   font-size: 3.5em;
   font-weight: bold;
+  text-decoration: underline !important;
 
 }
 
 .smallText {
 
   font-size: 0.5em;
+  
+}
+
+.thirdWrapper {
+
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -281,6 +313,17 @@ a {
   
   }
 
+  .callNowWrapperWhite {
+
+    width: 90%;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+  
+  }
+
   .emergencyContact {
 
     color: white;
@@ -288,6 +331,104 @@ a {
     font-weight: bold;
   
   }
+
+  .thirdWrapper {
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+  }
   
 }
 
+.emergencyButtonsWrapperOuter {
+
+  width: 50%;
+  margin: auto;
+
+
+}
+
+.emergencyButton {
+
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+
+}
+
+
+
+
+
+.third {
+
+  width: 31%;
+  margin: 10px;
+
+}
+
+.nhs {
+
+  background-color: #005eb8;
+  color: white;
+  border: 2px solid 005eb8 ;
+
+
+}
+
+.h2Small {
+
+  font-size: 20px;
+
+}
+
+
+
+.emphasiseText {
+
+  font-size: 40px;
+
+}
+
+.italic {
+
+  font-style: italic;
+
+}
+
+.emergencyContactWhite {
+
+  text-decoration: underline !important;
+  color: black !important;
+  font-weight: bold;
+
+
+}
+
+.emergencyContactSmall {
+
+  text-decoration: underline !important;
+  font-weight: bold;
+  font-size: 0.7em;
+
+}
+
+.linkWhite {
+
+  color:white;
+}
+
+.linkBlack {
+
+  color:black;
+}
+
+.yes, .no {
+
+  border-radius: var(--borderRadius);
+}
