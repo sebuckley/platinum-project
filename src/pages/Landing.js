@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
 
-
 const Landing = () => {
-
-
 
   return (  
     
@@ -11,33 +8,46 @@ const Landing = () => {
 
     <main className='mainClass'>
 
-        <Link to="/emergencyroute">
-
+        
+       
+                
             <div className="emergency flex-bottom">
+
+            <Link to="/emergency">
+                    <div className="emergencyBtn flex-center">
+
+                   
+                    
+                        <p>I need <span className='live'>help</span> now</p>
+
+                    </div>
+
+                    </Link>
                 
-                <div className="emergencyBtn flex-center">
-                
-                    <p>I need<br></br> <span className='live'>help</span> <br></br>now</p>
-            
-                </div>
-                
+             
             </div>
 
-        </Link>
-
-        <Link to="/normalroute">
-
-            <div className="route flex-top">
+       
                 
-                <div className="routeBtn flex-center">
+       
+
+       
+
+            <div className="route flex-bottom">
                 
-                    <p>what<br></br><span className='live'>support</span><br></br>  is available</p>
-            
-                </div>
+                <Link to="/support">
+
+                    <div className="routeBtn flex-center">
+                    
+                        <p>what <span className='live'>support</span> is available</p>
+                
+                    </div>
+
+                </Link>
             
             </div>
 
-        </Link>
+     
 
     </main>
 

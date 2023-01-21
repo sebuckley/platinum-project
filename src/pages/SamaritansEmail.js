@@ -4,7 +4,7 @@ const SamaritansPartEmail = () => {
 
         <>
 
-            <div className='callNowWrapperWhite third'>
+            <div className='callNowWrapperWhite third colorFourBgLight colorFourBorder'>
 
                 <h2 className='h2Small '><span class='emphasiseText'>Email</span></h2>
 

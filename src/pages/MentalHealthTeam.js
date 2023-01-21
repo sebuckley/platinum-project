@@ -4,11 +4,11 @@ const MentalHealthTeam = (props) => {
 
         <>
 
-            <div className='callNowWrapperWhite'>
+            <div className='callNowWrapperWhite colorFiveBgLight colorFiveBorder'>
 
                 <h3>Call the { props.location } Crisis team</h3>
 
-                <p><a className='emergencyContactWhite' href={ "tel:" + props.number } > { props.number }</a></p>
+                <p><a className='emergencyContactWhite ' href={ "tel:" + props.number } > { props.number }</a></p>
 
                 <p className="smallText">You can speak with your local mental health team for further support</p>
                 

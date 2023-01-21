@@ -55,7 +55,7 @@ const EmergencyRouteDoncaster = () => {
     
             <main className="pageWrapper">
 
-                <h1>Doncaster Emergency Support</h1>
+                <h1 class='emergencyHeaderText'>Doncaster Emergency Support</h1>
 
                 <div className='emergencyButtonsWrapperOuter'>
 

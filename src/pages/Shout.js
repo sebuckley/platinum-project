@@ -4,7 +4,7 @@ const ShoutPart = () => {
 
         <>
 
-            <div className='callNowWrapperWhite third'>
+            <div className='callNowWrapperWhite third colorGreyBgLight colorGreyBorder'>
 
                 <h2 className='h2Small'>Text <span class='emphasiseText'>SHOUT</span></h2>
 

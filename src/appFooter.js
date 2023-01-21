@@ -7,7 +7,7 @@ export default function AppFooter() {
 
         <footer className="App-footer">
        
-                <p class='footer'>&copy; DWP South Yorkshire District</p>
+                <p className='footer'>&copy; DWP South Yorkshire District</p>
        
         </footer>
 

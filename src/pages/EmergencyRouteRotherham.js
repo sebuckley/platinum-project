@@ -55,7 +55,7 @@ const EmergencyRouteRotherham = () => {
     
             <main className="pageWrapper">
 
-                <h1>Rotherham Emergency Support</h1>
+                <h1 class='emergencyHeaderText'>Rotherham Emergency Support</h1>
 
                 <div className='emergencyButtonsWrapperOuter'>
 
