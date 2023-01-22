@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sebuckley.github.io/platinum-project",
   "name": "my-app",
   "version": "0.1.0",
   "description": "",
@@ -7,7 +8,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -e platinum-project"
   },
   "keywords": [],
   "author": "",
@@ -36,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-router-dom": "^6.4.1"
   },
   "browserslist": {

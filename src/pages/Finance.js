@@ -56,7 +56,7 @@ export const Finance = [{
         "boxHeightType": "px",
         "supportType": "Financial Worries, Debt or Gambling",
         "supportName": "Dealing with rent arrears in Private Tenancies",
-        "image": "ca-logo_100px.svg",
+        "image": "ca-logo_100px.svgca-logo_100px",
         "imageAlt": "speaking",
         "link": "https://www.citizensadvice.org.uk/debt-and-money/help-with-debt/dealing-with-urgent-debts/dealing-with-rent-arrears-private-tenancies/",
         "linkTarget": "",
