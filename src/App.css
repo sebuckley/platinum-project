@@ -1,0 +1,1190 @@
+:root {
+
+  --fontSizeTownName: 2em;
+  --borderRadius: 40px;
+  --colorOne: rgb(126, 217, 87);
+  --colorOneLight: rgb(182, 221, 166);
+  --colorTwo: rgb(0, 194, 203);
+  --colorTwoLight: rgb(184, 251, 255);
+  --colorThree: rgb(82, 113, 255);  
+  --colorThreeLight: rgb(184, 197, 255); 
+  --colorFour: #8b3dff;  
+  --colorFourLight: #ceadff;  
+  --colorFourLightLight: #eee3fe;  
+  --colorFive: rgb(255, 102, 196);
+  --colorFiveLight: rgb(252, 228, 243);
+  --colorGrey: rgb(90, 90, 90);
+  --colorGreyLight: rgb(214, 214, 214);
+
+}
+
+.colorOne {
+
+  color: var(--colorOne);
+
+}
+
+.colorOneBg {
+
+  background-color: var(--colorOne);
+
+}
+
+.colorOneBgLight {
+
+  background-color: var(--colorOneLight);
+
+}
+
+.colorOneBorder {
+
+  border: 2px solid var(--colorOne);
+
+}
+
+.colorTwo {
+
+  color: var(--colorTwo);
+
+}
+
+.colorTwoBgLight {
+
+  background-color: var(--colorTwoLight);
+
+}
+
+.colorTwoBorder {
+
+  border: 2px solid var(--colorTwo);
+
+}
+
+
+.colorTwoBg {
+
+  background-color: var(--colorTwo);
+
+}
+
+.colorThree {
+
+  color: var(--colorThree);
+
+}
+
+.colorThreeBg {
+
+  background-color: var(--colorThree);
+
+}
+
+.colorThreeBgLight {
+
+  background-color: var(--colorThreeLight);
+
+}
+
+.colorThreeBorder {
+
+  border: 2px solid var(--colorThree);
+
+}
+
+.colorFour {
+
+  color: var(--colorFour);
+
+}
+
+.colorFourBg {
+
+  background-color: var(--colorFour);
+
+}
+
+.colorFourBgLight {
+
+  background-color: var(--colorFourLight);
+
+}
+
+.colorFourBorder {
+
+  border: 2px solid var(--colorFour);
+
+}
+
+.colorFive {
+
+  color: var(--colorFive);
+
+}
+
+.colorFiveBg {
+
+  background-color: var(--colorFive);
+
+}
+
+.colorFiveBgLight {
+
+  background-color: var(--colorFiveLight);
+
+}
+
+.colorFiveBorder {
+
+  border: 2px solid var(--colorFive);
+
+}
+
+
+.colorGrey {
+
+  color: var(--colorGrey);
+
+}
+
+.colorGreyBg {
+
+  background-color: var(--colorGrey);
+
+}
+
+.colorGreyBgLight {
+
+  background-color: var(--colorGreyLight);
+
+}
+
+.colorGreyBorder {
+
+  border: 2px solid var(--colorGrey);
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.App {
+
+  text-align: center;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+
+}
+
+.fill-window {
+  
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+
+}
+
+a {
+  
+  width: 100%;
+  height: 100%;
+  text-decoration: none !important;
+  cursor: pointer;
+
+}
+
+
+.emergency {
+
+  position: relative;
+  float: left;
+
+  background-image: url(./images/red.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: auto 1200px; 
+  width:50%;
+  height: 100%;
+
+}
+
+.emergencyBtn{
+
+  position: absolute;
+  bottom: 100px;
+  height: 200px;
+  width: 60%;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: rgb(73, 73, 73);
+  border-radius: 30px;
+  color: var(--colorFiveLight);
+  text-decoration: none !important;
+  font-size: 1.5em;
+
+
+}
+
+.mainClass {
+
+  height: 100vh;
+  width: 100%;
+
+}
+
+.route {
+
+  position:relative;
+  float: left;
+
+  background-image: url(./images/green.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: auto 100%; 
+  width:50%;
+  height: 100%;
+
+}
+
+.routeBtn{
+
+  position: absolute;
+  height: 200px;
+  width: 60%;
+  bottom: 100px;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: rgb(73, 73, 73);
+  border-radius: 30px;
+  color: var(--colorOneLight);
+  text-decoration: none !important;
+  font-size: 1.5em;
+
+}
+
+
+
+.flex-center {
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+
+}
+
+
+.flex-top {
+
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+
+
+}
+
+.quarter {
+
+  width: 49%;
+  height: 49%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin:2px;
+ 
+
+}
+
+.doncaster {
+
+  z-index: -1;
+  background-image: url('../images/doncaster-bg.jpg.webp');
+  background-color: rgb(158, 28, 100);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  /* box-shadow: inset 0 0 0 1000px rgba(105, 0, 110, 0.9); */
+  color: white;
+  /* text-shadow: 2px 2px 2px black; */
+
+
+}
+
+
+.barnsley {
+
+  z-index: -1;
+  background-image: url('../images/barnsley-bg.jpg.jpg');
+  background-color: rgb(0, 34, 255);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  /* box-shadow: inset 0 0 0 1000px rgba(90, 56, 89, 0.9); */
+  color: white;
+  /* text-shadow: 2px 2px 2px black; */
+
+}
+
+.rotherham {
+
+  z-index: -1;
+  background-image: url('../images/rotherham-bg.jpg');
+  background-color: rgb(0, 34, 255);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 37, 84, 0.9); */
+  color: white;
+  /* text-shadow: 2px 2px 2px black; */
+
+
+}
+
+
+.sheffield {
+
+  z-index: -1;
+  background-image: url('../images/sheffield-bg.jpg');
+  background-color: rgb(0, 34, 255);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  /* box-shadow: inset 0 0 0 1000px rgba(18, 43, 60, 0.9); */
+  color: white;
+  /* text-shadow: 2px 2px 2px black; */
+
+
+}
+
+
+.live {
+
+  /* font-family: 'Pacifico', cursive; */
+  /* font-size: 1.2em; */
+
+}
+
+/* .barnsleyText {
+
+  font-weight: bold;
+
+}
+
+.doncasterText {
+
+  font-weight: bold;
+  
+}
+
+.rotherhamText {
+
+  font-weight: bold;
+  
+}
+
+
+.sheffieldText {
+
+  font-weight: bold;
+  
+} */
+
+.plateName {
+
+  background-color: #252627;
+  color: #fff;
+  padding: 30px;
+  border-radius: var(--borderRadius);
+  font-weight: bold;
+
+}
+
+.plateName:hover {
+
+  
+  background-color: #fff;
+  color: #252627;
+  border: 2px solid #252627;
+  padding: 30px;
+  border-radius: var(--borderRadius);
+
+
+}
+
+
+.callNowWrapper {
+
+  width: 50%;
+  background-color: black;
+  color: white;
+  margin: auto;
+  padding: 20px;
+  border-radius: var(--borderRadius);
+
+}
+
+.callNowWrapperWhite {
+
+  width: 50%;
+  color: black;
+  margin: auto;
+  padding: 20px;
+  border-radius: var(--borderRadius);
+
+}
+
+.pageWrapper {
+
+  margin-bottom: 80px;
+
+}
+
+.emergencyContact {
+
+  color: white;
+  font-size: 3.5em;
+  font-weight: bold;
+  text-decoration: underline !important;
+
+}
+
+.smallText {
+
+  font-size: 0.5em;
+  
+}
+
+.thirdWrapper {
+
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .callNowWrapper {
+
+    width: 90%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 20px;
+  
+  }
+
+  .callNowWrapperWhite {
+
+    width: 90%;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+  
+  }
+
+  .emergencyContact {
+
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+  
+  }
+
+  .thirdWrapper {
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+  }
+  
+}
+
+.emergencyButtonsWrapperOuter {
+
+  width: 50%;
+  margin: auto;
+
+
+}
+
+.emergencyButton {
+
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+
+}
+
+.third {
+
+  width: 31%;
+  margin: 10px;
+
+}
+
+.nhs {
+
+  background-color: #005eb8;
+  color: white;
+  border: 2px solid 005eb8 ;
+
+}
+
+
+
+.leftBox {
+
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+
+}
+
+.rightBox {
+
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contentBox a {
+
+  width: 100%;
+  height: 100%;
+  padding: 20px !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin: 5px;
+
+
+}
+
+.h2Small {
+
+  font-size: 8px;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0px;
+
+}
+
+
+.emphasiseText {
+
+  font-size: 40px;
+
+}
+
+.italic {
+
+  font-style: italic;
+
+}
+
+.emergencyContactWhite {
+
+  text-decoration: underline !important;
+  color: black !important;
+  font-weight: bold;
+
+
+}
+
+.emergencyContactSmall {
+
+  text-decoration: underline !important;
+  font-weight: bold;
+  font-size: 0.7em;
+
+}
+
+.linkWhite {
+
+  color:white;
+}
+
+.linkBlack {
+
+  color:black;
+}
+
+.yes, .no {
+
+  border-radius: var(--borderRadius);
+}
+
+.emergencyHeaderText {
+
+  padding: 40px;
+  background-color: var(--colorFiveLight);
+  margin-top: 0px;
+
+}
+
+nav {
+
+  display: flex;
+  align-content: stretch;
+  padding: 30px;
+  width: 90%;
+  margin: auto;
+
+}
+
+.navBtn {
+
+  min-height: 80px;
+  width: 20%;
+  border-radius: 22px;
+  margin: 2px;
+  color: white;
+  font-size: 0.6em;
+  padding: 10px;
+
+}
+
+
+.contentWrapper {
+
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: stretch;
+  margin-bottom: 100px;
+
+  
+}
+
+.contentBox {
+
+  margin: 9.1px;
+  border-radius: var(--borderRadius);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contentBox2 {
+
+  margin: 9.1px;
+  border-radius: var(--borderRadius);
+  position: relative;
+  overflow: hidden;
+
+
+
+}
+
+.contentLast {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.nameBox {
+
+  height: 100%;
+  
+
+
+}
+
+.nameBox2 {
+
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.nameBox1 {
+
+  height: 20%;
+
+}
+
+.nameBox2 {
+
+  height: 60%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nameBox3 {
+
+  height: 20%;
+  font-weight:bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+ 
+}
+
+.nameBox3 > div {
+
+
+}
+
+.nameBox4 {
+
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: black;
+  border: 0px solid black;
+ 
+
+}
+
+.nameBox5 {
+
+  height: 100%;
+  width: 100%;
+  color: black;
+  border: 0px solid black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+ 
+
+}
+
+.textName {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+  .contentBox {
+
+    margin: 2px;
+    border-radius: var(--borderRadius);
+    padding: 20px;
+    width: 42%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+
+  }
+
+}
+
+button {
+
+  width: 150px;
+  height: 50px;
+  margin: 30px;
+  margin-bottom: 60px;
+
+}
+
+input[type="submit"] {
+
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  font-size: 1.2em;
+  
+
+}
+
+input[type="text"] {
+
+  width: 60%;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+ol {
+
+  width: 50%;
+  margin: auto;
+
+  counter-reset: li; /* Initiate a counter */
+  list-style: none; /* Remove default numbering */
+  *list-style: decimal; /* Keep using default numbering for IE6/7 */
+  font: 12px 'trebuchet MS', 'lucida sans';
+  padding: 0;
+  margin-bottom: 0px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  ol {
+
+    width: 90%;
+    margin: auto;
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 12px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 0px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  
+  }
+
+}
+
+ol ol {
+
+  margin: 0 0 0 2em; /* Add some left margin for inner lists */
+
+}
+
+.rounded-list a {
+
+  position: relative;
+  display: block;
+  height: 100px;
+  background: black;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+  color: white;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: all .3s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.rounded-list a:hover{
+
+  border: 1px solid black;
+
+}
+
+.rounded-list a:hover:before{
+
+  transform: rotate(360deg);
+
+}
+
+.rounded-list a:before {
+
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: black;
+  color: white;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+
+}
+
+.item-1 a:before{
+ 
+  background: var(--colorFour);
+
+} 
+
+.item-1 a{
+ 
+  background: var(--colorFour);
+
+}
+
+.item-2 a:before{
+ 
+  background: var(--colorThree);
+
+}
+
+.item-2 a{
+ 
+  background: var(--colorThree);
+
+}
+
+.item-3 a:before{
+ 
+  background: var(--colorFive);
+
+}
+
+.item-3 a{
+ 
+  background: var(--colorFive);
+
+} 
+
+.batteryTop {
+
+
+  background: grey;
+  height: 80px;
+  width: 200px;
+  border-radius: 20px 20px 0px 0px;
+  margin: auto;
+  margin-top: 20px;
+
+  
+}
+
+.batteryTopBottom {
+
+  background: grey;
+  height: 20px;
+  width: 50%;
+  border-radius: 10px 10px 0px 0px;
+  margin: auto;
+  
+}
+
+.batteryBottom {
+
+  background: grey;
+  height: 20px;
+  width: 50%;
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+  margin-bottom: 60px;
+  
+}
+
+@media only screen and (max-width: 900px) {
+
+  .batteryTop {
+
+
+    background: grey;
+    height: 80px;
+    width: 200px;
+    border-radius: 20px 20px 0px 0px;
+    margin: auto;
+    margin-top: 20px;
+  
+    
+  }
+  
+  .batteryTopBottom {
+  
+    background: grey;
+    height: 20px;
+    width: 90%;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    
+  }
+  
+  .batteryBottom {
+  
+    background: grey;
+    height: 20px;
+    width: 90%;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    margin-bottom: 60px;
+    
+  }
+
+}
+
+.btnGroup > button {
+
+    margin: 0px;
+    margin-top:20px;
+    font-size: 0.7em;
+
+
+}
+
+.btnGroup > button {
+
+  border-radius: 0px 0px 0px 0px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0.2px 1px 0.2px;
+
+
+}
+
+.btnGroup > button:hover {
+
+  border-radius: 0px 0px 0px 0px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0.2px 1px 0.2px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  
+
+}
+
+.btnGroup > button:first-child {
+
+  border-radius: 10px 0px 0px 10px;
+  border-width: 1px 0.2px 1px 1px;
+
+
+}
+
+.btnGroup > button:first-child:hover {
+
+  border-radius: 10px 0px 0px 10px;
+  border-width: 1px 0.2px 1px 1px;
+  background-color: green;
+  color: white;
+
+}
+
+.Positive {
+
+  background-color: green;
+  color: white;
+
+}
+
+.Positive a:before{
+
+  background-color: green;
+  color: white;
+
+}
+
+.Positive a{
+
+  background-color: green;
+  color: white;
+
+}
+
+
+.btnGroup > button:last-child {
+
+  border-radius: 0px 10px 10px 0px;
+  border-width: 1px 1px 1px 0.2px;
+
+
+}
+
+.btnGroup > button:last-child:hover {
+
+  border-radius: 0px 10px 10px 0px;
+  border-width: 1px 1px 1px 0.2px;
+  background-color: red;
+  color: white;
+
+}
+
+.Indiferent {
+
+  background-color: orange;
+  color: white;
+
+}
+
+.Indiferent a:before{
+
+  background-color: orange;
+  color: white;
+
+}
+
+.Indiferent a{
+
+  background-color: orange;
+  color: white;
+
+}
+
+.Negative {
+
+  background-color: red;
+  color: white;
+
+}
+
+.Negative a:before{
+
+  background-color: red;
+  color: white;
+
+}
+
+.Negative a{
+
+  background-color: red;
+  color: white;
+
+}
+
+li.Indiferent:first-of-type a{
+
+  background-color: blue;
+
+}
+
+.selfCare {
+
+  height: 100px;
+  width: 100%;
+  margin-top:0px;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+
+}
+
