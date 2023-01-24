@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/platinum-project/static/css/main.ee33c946.css",
-    "main.js": "/platinum-project/static/js/main.f01a6943.js",
+    "main.js": "/platinum-project/static/js/main.404ee1b7.js",
     "static/js/787.28cb0dcd.chunk.js": "/platinum-project/static/js/787.28cb0dcd.chunk.js",
     "static/media/adult-bereavement.png": "/platinum-project/static/media/adult-bereavement.00f26e3168ccf91e4664.png",
     "static/media/victims-dont-leave.png": "/platinum-project/static/media/victims-dont-leave.ecc922e0a6649213d8d3.png",
@@ -48,11 +48,11 @@
     "static/media/ca-logo_100px.svg": "/platinum-project/static/media/ca-logo_100px.f66737b8f9073b96c66d.svg",
     "index.html": "/platinum-project/index.html",
     "main.ee33c946.css.map": "/platinum-project/static/css/main.ee33c946.css.map",
-    "main.f01a6943.js.map": "/platinum-project/static/js/main.f01a6943.js.map",
+    "main.404ee1b7.js.map": "/platinum-project/static/js/main.404ee1b7.js.map",
     "787.28cb0dcd.chunk.js.map": "/platinum-project/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee33c946.css",
-    "static/js/main.f01a6943.js"
+    "static/js/main.404ee1b7.js"
   ]
 }
