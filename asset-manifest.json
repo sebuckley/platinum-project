@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/platinum-project/static/css/main.ee33c946.css",
-    "main.js": "/platinum-project/static/js/main.43974d96.js",
+    "main.js": "/platinum-project/static/js/main.9d88d993.js",
     "static/js/787.28cb0dcd.chunk.js": "/platinum-project/static/js/787.28cb0dcd.chunk.js",
     "static/media/adult-bereavement.png": "/platinum-project/static/media/adult-bereavement.00f26e3168ccf91e4664.png",
     "static/media/victims-dont-leave.png": "/platinum-project/static/media/victims-dont-leave.ecc922e0a6649213d8d3.png",
@@ -39,6 +39,7 @@
     "static/media/Group-of-friends-toasting-with-drinks-for-the-oktoberfest.png": "/platinum-project/static/media/Group-of-friends-toasting-with-drinks-for-the-oktoberfest.3f075783c0f128dcfde9.png",
     "static/media/drugs-alcohol.png": "/platinum-project/static/media/drugs-alcohol.21c17196e77a8d796413.png",
     "static/media/SWA-LD075-400x275.jpg": "/platinum-project/static/media/SWA-LD075-400x275.1abcdae4830fb3304cec.jpg",
+    "static/media/mood-color.png": "/platinum-project/static/media/mood-color.c81f9896b76d106ec37e.png",
     "static/media/person-looking-left.png": "/platinum-project/static/media/person-looking-left.1922bbd733aa633f2c7e.png",
     "static/media/person-looking-right.png": "/platinum-project/static/media/person-looking-right.5aeadec677578060c646.png",
     "static/media/person.png": "/platinum-project/static/media/person.0d37130519717367d834.png",
@@ -48,11 +49,11 @@
     "static/media/ca-logo_100px.svg": "/platinum-project/static/media/ca-logo_100px.f66737b8f9073b96c66d.svg",
     "index.html": "/platinum-project/index.html",
     "main.ee33c946.css.map": "/platinum-project/static/css/main.ee33c946.css.map",
-    "main.43974d96.js.map": "/platinum-project/static/js/main.43974d96.js.map",
+    "main.9d88d993.js.map": "/platinum-project/static/js/main.9d88d993.js.map",
     "787.28cb0dcd.chunk.js.map": "/platinum-project/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee33c946.css",
-    "static/js/main.43974d96.js"
+    "static/js/main.9d88d993.js"
   ]
 }
