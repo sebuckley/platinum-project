@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/platinum-project/static/css/main.1e04602e.css",
-    "main.js": "/platinum-project/static/js/main.8ef5da02.js",
+    "main.css": "/platinum-project/static/css/main.b26b2bb1.css",
+    "main.js": "/platinum-project/static/js/main.8f2b52b7.js",
     "static/js/787.28cb0dcd.chunk.js": "/platinum-project/static/js/787.28cb0dcd.chunk.js",
     "static/media/adult-bereavement.png": "/platinum-project/static/media/adult-bereavement.00f26e3168ccf91e4664.png",
     "static/media/victims-dont-leave.png": "/platinum-project/static/media/victims-dont-leave.ecc922e0a6649213d8d3.png",
@@ -16,9 +16,10 @@
     "static/media/mentalhealthyoutube.png": "/platinum-project/static/media/mentalhealthyoutube.d3f58019787d3c6484a3.png",
     "static/media/nhs-grieve.PNG": "/platinum-project/static/media/nhs-grieve.4139d8aa40c36edddf2c.PNG",
     "static/media/grieving-man-1.jpg": "/platinum-project/static/media/grieving-man-1.0f791d2ab5ffcc362684.jpg",
+    "static/media/red1.jpg": "/platinum-project/static/media/red1.310d3dca1460b20a19f3.jpg",
     "static/media/Doncaster_Town_Center.JPG": "/platinum-project/static/media/Doncaster_Town_Center.11c7b9313246b2b3a728.JPG",
+    "static/media/green.jpg": "/platinum-project/static/media/green.c2a55c1a71dfacf05b33.jpg",
     "static/media/UrgentHelp.jpg": "/platinum-project/static/media/UrgentHelp.182b5b7d2896fc3efa0a.jpg",
-    "static/media/green.jpg": "/platinum-project/static/media/green.d37558289a2d609248b4.jpg",
     "static/media/red.jpg": "/platinum-project/static/media/red.1eea9cd0ab48ae0228d8.jpg",
     "static/media/Lizzie-what-I-wish-I-knew-at-18-Help2MakeSense.jpg": "/platinum-project/static/media/Lizzie-what-I-wish-I-knew-at-18-Help2MakeSense.40e5279e6dc42e768e2f.jpg",
     "static/media/twowomen.jpg": "/platinum-project/static/media/twowomen.4c744350dc205670b8c0.jpg",
@@ -48,12 +49,12 @@
     "static/media/money-1.png": "/platinum-project/static/media/money-1.2e5bb123020d5987dd05.png",
     "static/media/ca-logo_100px.svg": "/platinum-project/static/media/ca-logo_100px.f66737b8f9073b96c66d.svg",
     "index.html": "/platinum-project/index.html",
-    "main.1e04602e.css.map": "/platinum-project/static/css/main.1e04602e.css.map",
-    "main.8ef5da02.js.map": "/platinum-project/static/js/main.8ef5da02.js.map",
+    "main.b26b2bb1.css.map": "/platinum-project/static/css/main.b26b2bb1.css.map",
+    "main.8f2b52b7.js.map": "/platinum-project/static/js/main.8f2b52b7.js.map",
     "787.28cb0dcd.chunk.js.map": "/platinum-project/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e04602e.css",
-    "static/js/main.8ef5da02.js"
+    "static/css/main.b26b2bb1.css",
+    "static/js/main.8f2b52b7.js"
   ]
 }
