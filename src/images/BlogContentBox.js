@@ -56,8 +56,17 @@ const BlogContentBox = (props) => {
 
                 <a href={ props.link } target={props.linkTarget}>
 
+                    
+
                     <div className="nameBox5" style={getStyle2()}>
 
+                        <div className={props.color  + ' nameBox6'}>
+
+                            {console.log(props)}
+                            
+                            <div>{props.supportType}</div>
+                        
+                        </div>
                         <div className={props.color + ' nameBox4'}>
 
                             <div >{ props.name }</div>

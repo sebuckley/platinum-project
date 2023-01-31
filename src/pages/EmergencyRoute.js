@@ -6,7 +6,7 @@ const EmergencyRoute = () => {
 
     <>
 
-    <main className='mainClass'>
+    <main className='mainClass2'>
 
         <Link to="/emergency/barnsley/">
             <div className="quarter barnsley"><div className='plateName'>I <span className="live">LIVE</span> IN <span className="live">BARNSLEY</span></div></div>

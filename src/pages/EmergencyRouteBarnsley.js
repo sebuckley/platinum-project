@@ -59,7 +59,7 @@ const EmergencyRouteBarnsley = () => {
 
                 <div className='emergencyButtonsWrapperOuter'>
 
-                    <label>Is this an emergency where you or someone else is unsafe or life is at risk?</label>
+                    <label className="emergencyText">Is this an <b>EMERGENCY</b> where you or someone else is unsafe or life is at risk?</label>
 
                     <div className='emergencyButtonWrapper'>
 

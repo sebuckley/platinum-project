@@ -2,10 +2,6 @@ export const DrugAlcoholSupport = [{
 
         "location": "national",
         "boxType": "video",
-        "boxWidth":"32.5",
-        "boxWidthType": "%",
-        "boxHeight": "500",
-        "boxHeightType": "px",
         "supportType": "Drug or Alcohol Abuse",
         "supportName": "Alcohol, health and Wellbeing",
         "image": "alcohol-health-wellbeing.png",
@@ -18,10 +14,6 @@ export const DrugAlcoholSupport = [{
 
         "location": "national",
         "boxType": "video",
-        "boxWidth":"32.5",
-        "boxWidthType": "%",
-        "boxHeight": "500",
-        "boxHeightType": "px",
         "supportType": "Drug or Alcohol Abuse",
         "supportName": "Alcohol Biology",
         "image": "alcohol-biology.png",
@@ -34,10 +26,6 @@ export const DrugAlcoholSupport = [{
 
         "location": "national",
         "boxType": "blog",
-        "boxWidth":"32.5",
-        "boxWidthType": "%",
-        "boxHeight": "500",
-        "boxHeightType": "px",
         "supportType": "Drug or Alcohol Abuse",
         "supportName": "Why do I drink, and what can I do instead?",
         "image": "Spring-walk.png",
@@ -50,10 +38,6 @@ export const DrugAlcoholSupport = [{
 
         "location": "national",
         "boxType": "blog",
-        "boxWidth":"32.5",
-        "boxWidthType": "%",
-        "boxHeight": "500",
-        "boxHeightType": "px",
         "supportType": "Drug or Alcohol Abuse",
         "supportName": "What kind of drinker are you?",
         "image": "Group-of-friends-toasting-with-drinks-for-the-oktoberfest.png",

@@ -22,15 +22,15 @@ const SupportPages = (props) => {
 
             console.log(useBoxColor);
 
-            return <IconContentBox name={listItem.supportName} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} height={listItem.boxHeight} heightType={listItem.boxHeightType} width={listItem.boxWidth} widthType={listItem.boxWidthType}/>; 
+            return <IconContentBox name={listItem.supportName} supportType={listItem.supportType} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} />; 
 
         }else if(listItem.boxType === "video"){
 
-            return <VideoContentBox name={listItem.supportName} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} height={listItem.boxHeight} heightType={listItem.boxHeightType} width={listItem.boxWidth} widthType={listItem.boxWidthType}/>; 
+            return <VideoContentBox name={listItem.supportName} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} />; 
 
         }else if(listItem.boxType === "blog"){
 
-            return <BlogContentBox name={listItem.supportName} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} height={listItem.boxHeight} heightType={listItem.boxHeightType} width={listItem.boxWidth} widthType={listItem.boxWidthType}/>; 
+            return <BlogContentBox name={listItem.supportName} supportType={listItem.supportType} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} />; 
 
         }
 

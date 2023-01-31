@@ -194,16 +194,37 @@ a {
 
 }
 
+.mainClass {
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+}
+
+.mainClass2 {
+
+  height: 100vh;
+  width: 100%;
+
+}
+
+.mainClass2 > a {
+
+  height: 25%;
+  width: 25%;
+
+}
 
 .emergency {
 
   position: relative;
-  float: left;
-
-  background-image: url(./images/red.jpg);
+  background-image: url(./images/red1.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: auto 1200px; 
+  background-size: auto 100%; 
   width:50%;
   height: 100%;
 
@@ -212,32 +233,24 @@ a {
 .emergencyBtn{
 
   position: absolute;
-  bottom: 100px;
-  height: 200px;
+  bottom: 55px;
+  height: 15vh;
   width: 60%;
   left: 50%;
   transform: translatex(-50%);
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(73, 73, 73, 0.9);
   border-radius: 30px;
   color: var(--colorFiveLight);
   text-decoration: none !important;
-  font-size: 1.5em;
+  font-size: 1em;
 
 
 }
 
-.mainClass {
-
-  height: 100vh;
-  width: 100%;
-
-}
 
 .route {
 
   position:relative;
-  float: left;
-
   background-image: url(./images/green.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -250,19 +263,58 @@ a {
 .routeBtn{
 
   position: absolute;
-  height: 200px;
+  height: 15vh;
   width: 60%;
-  bottom: 100px;
+  bottom: 55px;
   left: 50%;
   transform: translatex(-50%);
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(73, 73, 73, 0.9);
   border-radius: 30px;
   color: var(--colorOneLight);
   text-decoration: none !important;
-  font-size: 1.5em;
+  font-size: 1em;
 
 }
 
+
+@media screen and (max-width: 992px) {
+
+  .mainClass {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+
+  .route {
+
+    position:relative;
+    background-image: url(./images/green.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; 
+    width:100%;
+    height: 50%;
+  
+  }
+
+  .emergency {
+
+    position: relative;
+    background-image: url(./images/red1.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; 
+    width:100%;
+    height: 50%;
+  
+  }
+
+}
 
 
 .flex-center {
@@ -301,10 +353,9 @@ a {
 
   z-index: -1;
   background-image: url('../images/doncaster-bg.jpg.webp');
-  background-color: rgb(158, 28, 100);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
+  background-size: contain; 
   /* box-shadow: inset 0 0 0 1000px rgba(105, 0, 110, 0.9); */
   color: white;
   /* text-shadow: 2px 2px 2px black; */
@@ -317,10 +368,9 @@ a {
 
   z-index: -1;
   background-image: url('../images/barnsley-bg.jpg.jpg');
-  background-color: rgb(0, 34, 255);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
+  background-size: contain; 
   /* box-shadow: inset 0 0 0 1000px rgba(90, 56, 89, 0.9); */
   color: white;
   /* text-shadow: 2px 2px 2px black; */
@@ -331,10 +381,9 @@ a {
 
   z-index: -1;
   background-image: url('../images/rotherham-bg.jpg');
-  background-color: rgb(0, 34, 255);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
+  background-size: contain; 
   /* box-shadow: inset 0 0 0 1000px rgba(0, 37, 84, 0.9); */
   color: white;
   /* text-shadow: 2px 2px 2px black; */
@@ -347,10 +396,9 @@ a {
 
   z-index: -1;
   background-image: url('../images/sheffield-bg.jpg');
-  background-color: rgb(0, 34, 255);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
+  background-size: contain; 
   /* box-shadow: inset 0 0 0 1000px rgba(18, 43, 60, 0.9); */
   color: white;
   /* text-shadow: 2px 2px 2px black; */
@@ -393,11 +441,12 @@ a {
 
 .plateName {
 
-  background-color: #252627;
+  background-color: rgb(73, 73, 73, 0.9);
   color: #fff;
   padding: 30px;
   border-radius: var(--borderRadius);
   font-weight: bold;
+  font-size: 0.5em;
 
 }
 
@@ -466,63 +515,30 @@ a {
 
 }
 
-@media only screen and (max-width: 900px) {
 
-  .callNowWrapper {
-
-    width: 90%;
-    background-color: black;
-    color: white;
-    margin: auto;
-    padding: 20px;
-  
-  }
-
-  .callNowWrapperWhite {
-
-    width: 90%;
-    background-color: white;
-    color: black;
-    margin: auto;
-    padding: 20px;
-    border: 2px solid black;
-  
-  }
-
-  .emergencyContact {
-
-    color: white;
-    font-size: 2.5em;
-    font-weight: bold;
-  
-  }
-
-  .thirdWrapper {
-
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  
-  }
-  
-}
 
 .emergencyButtonsWrapperOuter {
 
-  width: 50%;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 
 
 }
 
+.emergencyText {
+
+  font-size: 1.5em;
+
+}
+
 .emergencyButton {
 
-  width: 150px;
-  height: 150px;
+  width: 30vw;
+  height: 45vh;
   margin: 10px;
   cursor: pointer;
+  font-size: 2em;
 
 }
 
@@ -561,6 +577,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  font-size: 0.7em;
 
 }
 
@@ -645,6 +662,8 @@ nav {
 
   display: flex;
   align-content: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 30px;
   width: 90%;
   margin: auto;
@@ -653,10 +672,10 @@ nav {
 
 .navBtn {
 
-  min-height: 80px;
-  width: 20%;
+  min-height: 120px;
   border-radius: 22px;
   margin: 2px;
+  width: 19%;
   color: white;
   font-size: 0.6em;
   padding: 10px;
@@ -672,7 +691,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: stretch;
+  justify-content: center;
   margin-bottom: 100px;
 
   
@@ -680,9 +699,10 @@ nav {
 
 .contentBox {
 
-  margin: 9.1px;
+  margin: 5px;
   border-radius: var(--borderRadius);
-
+  width: 28vw;
+  height: 16vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -691,14 +711,17 @@ nav {
 
 .contentBox2 {
 
-  margin: 9.1px;
+  margin: 5px;
   border-radius: var(--borderRadius);
+  width: 28vw;
+  height: 16vw;
   position: relative;
   overflow: hidden;
 
-
-
 }
+
+
+
 
 .contentLast {
 
@@ -713,8 +736,6 @@ nav {
 
   height: 100%;
   
-
-
 }
 
 .nameBox2 {
@@ -751,12 +772,8 @@ nav {
   background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
   background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
   background: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+  font-size: 0.6em;
  
-}
-
-.nameBox3 > div {
-
-
 }
 
 .nameBox4 {
@@ -766,6 +783,20 @@ nav {
   padding: 10px;
   color: black;
   border: 0px solid black;
+  font-size: 0.6em;
+ 
+
+}
+
+.nameBox6 {
+
+  width: 50%;
+  padding: 5px;
+  color: black;
+  border: 0px solid black;
+  font-size: 0.6em;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 0.4em;
  
 
 }
@@ -777,8 +808,9 @@ nav {
   color: black;
   border: 0px solid black;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
  
 
 }
@@ -788,27 +820,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-
-}
-
-
-
-@media only screen and (max-width: 900px) {
-
-  .contentBox {
-
-    margin: 2px;
-    border-radius: var(--borderRadius);
-    padding: 20px;
-    width: 42%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  
-
-  }
 
 }
 
@@ -855,23 +866,6 @@ ol {
 
 }
 
-@media only screen and (max-width: 900px) {
-
-  ol {
-
-    width: 90%;
-    margin: auto;
-    counter-reset: li; /* Initiate a counter */
-    list-style: none; /* Remove default numbering */
-    *list-style: decimal; /* Keep using default numbering for IE6/7 */
-    font: 12px 'trebuchet MS', 'lucida sans';
-    padding: 0;
-    margin-bottom: 0px;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
-  
-  }
-
-}
 
 ol ol {
 
@@ -1001,43 +995,7 @@ ol ol {
   
 }
 
-@media only screen and (max-width: 900px) {
 
-  .batteryTop {
-
-
-    background: grey;
-    height: 80px;
-    width: 200px;
-    border-radius: 20px 20px 0px 0px;
-    margin: auto;
-    margin-top: 20px;
-  
-    
-  }
-  
-  .batteryTopBottom {
-  
-    background: grey;
-    height: 20px;
-    width: 90%;
-    border-radius: 10px 10px 0px 0px;
-    margin: auto;
-    
-  }
-  
-  .batteryBottom {
-  
-    background: grey;
-    height: 20px;
-    width: 90%;
-    border-radius: 0px 0px 10px 10px;
-    margin: auto;
-    margin-bottom: 60px;
-    
-  }
-
-}
 
 .btnGroup > button {
 
@@ -1184,6 +1142,138 @@ li.Indiferent:first-of-type a{
   display: flex;
   align-content: center;
   justify-content: center;
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .navBtn {
+
+    min-height: 120px;
+    border-radius: 22px;
+    margin: 2px;
+    color: white;
+    font-size: 0.4em;
+    padding: 10px;
+  
+  }
+
+  .quarter {
+
+    width: 100vw;
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin:2px;
+   
+  
+  }
+
+  .emergencyButton {
+
+    width: 45vw;
+    height: 45vh;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 2em;
+  
+  }
+
+  .contentBox {
+    
+    margin: 5px;
+    border-radius: var(--borderRadius);
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .contentBox2 {
+
+    margin: 5px;
+    border-radius: var(--borderRadius);
+    height: 45vh;
+    width: 100vw;
+
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .batteryTop {
+
+
+    background: grey;
+    height: 80px;
+    width: 200px;
+    border-radius: 20px 20px 0px 0px;
+    margin: auto;
+    margin-top: 20px;
+  
+    
+  }
+  
+  .batteryTopBottom {
+  
+    background: grey;
+    height: 20px;
+    width: 90%;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    
+  }
+  
+  .batteryBottom {
+  
+    background: grey;
+    height: 20px;
+    width: 90%;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    margin-bottom: 60px;
+    
+  }
+
+
+
+  .emergencyContact {
+
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+  
+  }
+
+  .thirdWrapper {
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+  }
+  
+  ol {
+
+    width: 90%;
+    margin: auto;
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 12px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 0px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  
+  }
+
 
 
 }

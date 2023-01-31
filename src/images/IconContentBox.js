@@ -37,11 +37,11 @@ const IconContentBox = (props) => {
 
             <div className={ props.color + ' contentBox'} style={ getStyle()}>
 
-                <Link to={ props.link } target={props.linkTarget}>
+                <a href={ props.link } target={props.linkTarget}>
 
                     <div className="leftBox">
 
-                        <img  className="boxImage" src={require("./../images/" + props.imageFile)} width='auto' height='100%' alt={props.imageAlt}/>
+                        <img  className="boxImage" src={require("./../images/" + props.imageFile)} width='90%' height='auto' alt={props.imageAlt}/>
 
                     </div>
 
@@ -55,7 +55,7 @@ const IconContentBox = (props) => {
 
                     </div>
 
-                </Link>
+                </a>
                 
             </div>
 

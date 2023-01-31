@@ -1,7 +1,7 @@
 import './App.css';
 import AppHeader from './appHeader.js';
 import AppFooter from './appFooter.js';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter , Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing.js";
 import EmergencyRoute from "./pages/EmergencyRoute.js";
 import EmergencyRouteBarnsley from "./pages/EmergencyRouteBarnsley.js";
@@ -21,9 +21,9 @@ function App() {
 
       <AppHeader />
 
-      <BrowserRouter>
+      <HashRouter >
         <Routes>
-          <Route path="/" >
+          <Route basename="/platinum-project" path="/" >
             <Route index element={ <Landing /> } />
             <Route path="emergency" element={ <EmergencyRoute /> } />
             <Route path="emergency/barnsley" element={ <EmergencyRouteBarnsley /> } />
@@ -40,7 +40,7 @@ function App() {
             <Route path="support/selfcare" element={ <SelfCare /> } />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter >
       
       <AppFooter />
 

@@ -36,7 +36,7 @@ const IconContentBox = (props) => {
             
             <div className={ props.color + ' contentBox'} style={ getStyle()}>
 
-                <Link to={ props.link } target={props.linkTarget}>
+                <a href={ props.link } target={props.linkTarget}>
 
                     <div className="leftBox">
 
@@ -54,7 +54,7 @@ const IconContentBox = (props) => {
 
                     </div>
 
-                </Link>
+                </a>
                 
             </div>
 
