@@ -21,7 +21,7 @@ const IconContentBox = (props) => {
         <>
             
 
-            <div className={ props.color + ' contentBox'} style={ getStyle()}>
+            <div className={ props.color.main + ' contentBox'} style={ getStyle()}>
 
                 <Link to={ props.link } target={props.linkTarget}>
 

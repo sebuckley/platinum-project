@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 const IconContentBox = (props) => {
 
     let windowWidth = window.innerWidth;
@@ -30,33 +28,53 @@ const IconContentBox = (props) => {
 
     }
 
+    const getStyle3 = () => {
+
+        let styleObject3 = {
+
+            width: "" + actualWidth + actualType + "",
+
+        }
+
+        return styleObject3
+
+    }
+
     return (
 
         <>
-            
+            <div style={getStyle3()}>
 
-            <div className={ props.color + ' contentBox'} style={ getStyle()}>
+                <div className={props.color.light + " " + props.color.border + ' blackText nameBox6'}>
+                                
+                    <div>{props.supportType}</div>
 
-                <a href={ props.link } target={props.linkTarget}>
+                </div>
 
-                    <div className="leftBox">
+                <div className={ props.color.light + ' ' + props.color.border + ' contentBox minusTopBorder'} style={ getStyle()}>
 
-                        <img  className="boxImage" src={require("./../images/" + props.imageFile)} width='90%' height='auto' alt={props.imageAlt}/>
+                    <a href={ props.link } target={props.linkTarget}>
 
-                    </div>
+                        <div className="leftBox">
 
-                    <div className="rightBox">
-
-                        <div>
-
-                            <span>{ props.name }</span>
+                            <img  className="boxImage" src={require("./../images/" + props.imageFile)} width='90%' height='auto' alt={props.imageAlt}/>
 
                         </div>
 
-                    </div>
+                        <div className="rightBox">
 
-                </a>
-                
+                            <div>
+
+                                <span>{ props.name }</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+                    
+                </div>
+
             </div>
 
            

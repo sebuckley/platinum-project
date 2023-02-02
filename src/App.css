@@ -1,7 +1,8 @@
 :root {
 
   --fontSizeTownName: 2em;
-  --borderRadius: 40px;
+  --borderRadius: 40px 40px 40px 40px;
+  --borderRadius2: 0px 0px 40px 40px;
   --colorOne: rgb(126, 217, 87);
   --colorOneLight: rgb(182, 221, 166);
   --colorTwo: rgb(0, 194, 203);
@@ -17,6 +18,19 @@
   --colorGreyLight: rgb(214, 214, 214);
 
 }
+
+.whiteText {
+
+  color: white;
+
+}
+
+.blackText {
+
+  color: black;
+  
+}
+
 
 .colorOne {
 
@@ -596,6 +610,11 @@ a {
 
 }
 
+.minusTopBorder {
+
+  border-top: 0px;
+}
+
 .h2Small {
 
   font-size: 8px;
@@ -700,7 +719,8 @@ nav {
 .contentBox {
 
   margin: 5px;
-  border-radius: var(--borderRadius);
+  border-radius: var(--borderRadius2);
+  margin-top: 0px;
   width: 28vw;
   height: 16vw;
   display: flex;
@@ -712,16 +732,15 @@ nav {
 .contentBox2 {
 
   margin: 5px;
-  border-radius: var(--borderRadius);
+  border-radius: var(--borderRadius2);
+  margin-top: 0px;
   width: 28vw;
   height: 16vw;
   position: relative;
   overflow: hidden;
+  
 
 }
-
-
-
 
 .contentLast {
 
@@ -768,7 +787,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
   background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
   background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
   background: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
@@ -781,7 +799,6 @@ nav {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
-  color: black;
   border: 0px solid black;
   font-size: 0.6em;
  
@@ -790,14 +807,16 @@ nav {
 
 .nameBox6 {
 
-  width: 50%;
+  height: 30px;
   padding: 5px;
-  color: black;
-  border: 0px solid black;
-  font-size: 0.6em;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 40px 40px 0px 0px;
   font-size: 0.4em;
- 
+  display: block;
+  margin: 5px 5px 0px 5px;
+  border-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -805,7 +824,6 @@ nav {
 
   height: 100%;
   width: 100%;
-  color: black;
   border: 0px solid black;
   display: flex;
   align-items: center;
@@ -1185,7 +1203,7 @@ li.Indiferent:first-of-type a{
   .contentBox {
     
     margin: 5px;
-    border-radius: var(--borderRadius);
+    border-radius: var(--borderRadius2);
     height: 45vh;
     width: 100vw;
     display: flex;
@@ -1197,7 +1215,7 @@ li.Indiferent:first-of-type a{
   .contentBox2 {
 
     margin: 5px;
-    border-radius: var(--borderRadius);
+    border-radius: var(--borderRadius2);
     height: 45vh;
     width: 100vw;
 
