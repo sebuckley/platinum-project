@@ -548,8 +548,8 @@ a {
 
 .emergencyButton {
 
-  width: 30vw;
-  height: 45vh;
+  width: 25vw;
+  height: 35vh;
   margin: 10px;
   cursor: pointer;
   font-size: 2em;
@@ -1177,6 +1177,21 @@ li.Indiferent:first-of-type a{
   
   }
 
+  .emergencyHeaderText {
+
+    padding: 40px;
+    background-color: var(--colorFiveLight);
+    margin-top: 0px;
+    font-size: 1.5em;
+  
+  }
+
+  .emergencyText {
+
+    font-size: 1em;
+  
+  }
+
   .quarter {
 
     width: 100vw;
@@ -1192,11 +1207,49 @@ li.Indiferent:first-of-type a{
 
   .emergencyButton {
 
-    width: 45vw;
-    height: 45vh;
+    width: 25vw;
+    height: 20vh;
     margin: 10px;
     cursor: pointer;
     font-size: 2em;
+  
+  }
+
+  .callNowWrapper {
+
+    width: 90%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: var(--borderRadius);
+  
+  }
+
+  .callNowWrapperWhite {
+
+    width: 90%;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    border-radius: var(--borderRadius);
+  
+  }
+
+  .thirdWrapper {
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+  }
+
+  .third {
+
+    width: 30%;
+    margin: 10px;
   
   }
 
