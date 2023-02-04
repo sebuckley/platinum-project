@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/platinum-project/static/css/main.16749c6c.css",
-    "main.js": "/platinum-project/static/js/main.1e8146b0.js",
+    "main.css": "/platinum-project/static/css/main.95491449.css",
+    "main.js": "/platinum-project/static/js/main.2669418c.js",
     "static/js/787.28cb0dcd.chunk.js": "/platinum-project/static/js/787.28cb0dcd.chunk.js",
     "static/media/adult-bereavement.png": "/platinum-project/static/media/adult-bereavement.00f26e3168ccf91e4664.png",
     "static/media/victims-dont-leave.png": "/platinum-project/static/media/victims-dont-leave.ecc922e0a6649213d8d3.png",
@@ -49,12 +49,12 @@
     "static/media/money-1.png": "/platinum-project/static/media/money-1.2e5bb123020d5987dd05.png",
     "static/media/ca-logo_100px.svg": "/platinum-project/static/media/ca-logo_100px.f66737b8f9073b96c66d.svg",
     "index.html": "/platinum-project/index.html",
-    "main.16749c6c.css.map": "/platinum-project/static/css/main.16749c6c.css.map",
-    "main.1e8146b0.js.map": "/platinum-project/static/js/main.1e8146b0.js.map",
+    "main.95491449.css.map": "/platinum-project/static/css/main.95491449.css.map",
+    "main.2669418c.js.map": "/platinum-project/static/js/main.2669418c.js.map",
     "787.28cb0dcd.chunk.js.map": "/platinum-project/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16749c6c.css",
-    "static/js/main.1e8146b0.js"
+    "static/css/main.95491449.css",
+    "static/js/main.2669418c.js"
   ]
 }
