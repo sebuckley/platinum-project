@@ -13,14 +13,17 @@ const SupportPages = (props) => {
 
     const [supportType, setSupportType] = useState(false);
     const [supportTypeName, setSupportTypeName] = useState("");
+   
     const locationName = window.location.href.trim().split("/");
     let component;
+    let useList;
+
+    let combinedLists = [].concat(mentalHealthList,DrugAlcoholSupport,Bereavement, DomesticAbuseViolence, Finance);
+   
 
     const setBoxType = (listItem, useBoxColor) => {
 
         if(listItem.boxType === "icon"){
-
-            console.log(useBoxColor);
 
             return <IconContentBox name={listItem.supportName} supportType={listItem.supportType} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} />; 
 
@@ -36,7 +39,7 @@ const SupportPages = (props) => {
 
     }
 
-    const generateList = (list) => {
+    const generateList = (newList) => {
 
         const boxColor = [
 
@@ -48,7 +51,7 @@ const SupportPages = (props) => {
     
         ];
 
-        return list.map((listItem) => {
+        return newList.map((listItem) => {
 
             if (locationName[locationName.length - 2] === listItem.location || listItem.location === "national"){
 
@@ -82,48 +85,49 @@ const SupportPages = (props) => {
 
     const setSupportView = () => {
 
+        useList = window.sessionStorage.getItem("list");
+        useList = JSON.parse(useList);
+    
         if(supportType !== false){
 
-            if(supportTypeName === "Mental Health"){
 
-                component = generateList(mentalHealthList);
+            let filteredList = useList.filter(function (listItem) {
 
-            }else if(supportTypeName === "Drug or Alcohol Abuse"){
+                return listItem.supportType ===  supportTypeName;
 
-                component = generateList(DrugAlcoholSupport);
+            });
+              
 
-            }else if(supportTypeName === "Bereavement"){
-
-                component = generateList(Bereavement);
-
-            }else if(supportTypeName === "Domestic Abuse or Violence"){
-
-                component = generateList(DomesticAbuseViolence);
-
-            }else if(supportTypeName === "Financial Worries, Debt or Gambling"){
-
-                component = component = generateList(Finance);
-
-            }
+            component = generateList(filteredList);
 
             return component;
 
         }else{
 
-
-            let combinedLists = [].concat(mentalHealthList,DrugAlcoholSupport,Bereavement, DomesticAbuseViolence, Finance);
-
-            let shuffled = combinedLists
-            .map(value => ({ value, sort: Math.random() }))
-            .sort((a, b) => a.sort - b.sort)
-            .map(({ value }) => value)
-
-            component = generateList(shuffled);
-
+            component = generateList(useList);
             return component;
 
-
         }
+
+    }
+
+    const randomShuffle = (list) => {
+
+        let shuffled = list
+        .map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
+
+        return shuffled;
+
+    }
+
+    let checkSession = window.sessionStorage.getItem("list");
+
+    if(checkSession === null){
+
+        useList = randomShuffle(combinedLists);
+        window.sessionStorage.setItem("list", JSON.stringify(useList));
 
     }
 
