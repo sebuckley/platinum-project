@@ -46,25 +46,15 @@ const BlogContentBox = (props) => {
 
     }
 
-    const getStyle3 = () => {
-
-        let styleObject3 = {
-
-            width: "" + actualWidth + actualType + "",
-
-        }
-
-        return styleObject3
-
-    }
+   
 
     return (
 
         <>
 
-            <div style={getStyle3()}>
+            <div className="contentBoxWrapper">
 
-                <div className={props.color.main + " " + props.color.border + ' whiteText nameBox6'}>
+                <div className={props.color.main + " " + props.color.border + ' whiteText contentBoxHeader'}>
                                 
                     <div>{props.supportType}</div>
         

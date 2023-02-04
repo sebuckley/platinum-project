@@ -62,9 +62,9 @@ const VideoContentBox = (props) => {
 
         <>
 
-            <div style={getStyle3()}>
+            <div className="contentBoxWrapper">
 
-                <div className={props.color.main + " " + props.color.border + ' whiteText nameBox6'}>
+                <div className={props.color.main + " " + props.color.border + ' whiteText contentBoxHeader'}>
                                 
                     <div>{props.supportType}</div>
 

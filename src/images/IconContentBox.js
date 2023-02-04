@@ -43,9 +43,9 @@ const IconContentBox = (props) => {
     return (
 
         <>
-            <div style={getStyle3()}>
+            <div className="contentBoxWrapper">
 
-                <div className={props.color.light + " " + props.color.border + ' blackText nameBox6'}>
+                <div className={props.color.light + " " + props.color.border + ' blackText contentBoxHeader'}>
                                 
                     <div>{props.supportType}</div>
 
