@@ -1019,7 +1019,7 @@ li.Indiferent:first-of-type a{
 
 .colorOne {
 
-  color: var(--colorOne);
+  color: var(--colorOne) !important;
 
 }
 
