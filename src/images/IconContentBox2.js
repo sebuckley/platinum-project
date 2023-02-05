@@ -43,6 +43,8 @@ const IconContentBox = (props) => {
 
                 <div className={ props.color.light + ' ' + props.color.border + ' contentBox minusTopBorder'} style={ getStyle()}>
 
+                    {console.log(props.link)}
+
                     <Link to={ props.link } target={props.linkTarget}>
 
                         <div className="leftBox">
