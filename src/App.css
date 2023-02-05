@@ -19,164 +19,6 @@
 
 }
 
-.whiteText {
-
-  color: white;
-
-}
-
-.blackText {
-
-  color: black;
-  
-}
-
-
-.colorOne {
-
-  color: var(--colorOne);
-
-}
-
-.colorOneBg {
-
-  background-color: var(--colorOne);
-
-}
-
-.colorOneBgLight {
-
-  background-color: var(--colorOneLight);
-
-}
-
-.colorOneBorder {
-
-  border: 2px solid var(--colorOne);
-
-}
-
-.colorTwo {
-
-  color: var(--colorTwo);
-
-}
-
-.colorTwoBgLight {
-
-  background-color: var(--colorTwoLight);
-
-}
-
-.colorTwoBorder {
-
-  border: 2px solid var(--colorTwo);
-
-}
-
-
-.colorTwoBg {
-
-  background-color: var(--colorTwo);
-
-}
-
-.colorThree {
-
-  color: var(--colorThree);
-
-}
-
-.colorThreeBg {
-
-  background-color: var(--colorThree);
-
-}
-
-.colorThreeBgLight {
-
-  background-color: var(--colorThreeLight);
-
-}
-
-.colorThreeBorder {
-
-  border: 2px solid var(--colorThree);
-
-}
-
-.colorFour {
-
-  color: var(--colorFour);
-
-}
-
-.colorFourBg {
-
-  background-color: var(--colorFour);
-
-}
-
-.colorFourBgLight {
-
-  background-color: var(--colorFourLight);
-
-}
-
-.colorFourBorder {
-
-  border: 2px solid var(--colorFour);
-
-}
-
-.colorFive {
-
-  color: var(--colorFive);
-
-}
-
-.colorFiveBg {
-
-  background-color: var(--colorFive);
-
-}
-
-.colorFiveBgLight {
-
-  background-color: var(--colorFiveLight);
-
-}
-
-.colorFiveBorder {
-
-  border: 2px solid var(--colorFive);
-
-}
-
-
-.colorGrey {
-
-  color: var(--colorGrey);
-
-}
-
-.colorGreyBg {
-
-  background-color: var(--colorGrey);
-
-}
-
-.colorGreyBgLight {
-
-  background-color: var(--colorGreyLight);
-
-}
-
-.colorGreyBorder {
-
-  border: 2px solid var(--colorGrey);
-
-}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -610,10 +452,7 @@ a {
 
 }
 
-.minusTopBorder {
 
-  border-top: 0px;
-}
 
 .h2Small {
 
@@ -813,21 +652,7 @@ nav {
 
 }
 
-.contentBoxHeader {
 
-  height: 30px;
-  width: 100%;
-  padding: 5px 0px;
-  border-radius: 40px 40px 0px 0px;
-  font-size: 0.4em;
-  display: block;
-  margin: 5px 5px 0px 5px;
-  border-bottom: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
 
 .nameBox5 {
 
@@ -1171,6 +996,192 @@ li.Indiferent:first-of-type a{
   justify-content: center;
 
 
+}
+
+.whiteText {
+
+  color: white;
+
+}
+
+.whiteBg {
+
+  background-color: white;
+
+}
+
+.blackText {
+
+  color: black;
+  
+}
+
+
+.colorOne {
+
+  color: var(--colorOne);
+
+}
+
+.colorOneBg {
+
+  background-color: var(--colorOne);
+
+}
+
+.colorOneBgLight {
+
+  background-color: var(--colorOneLight);
+
+}
+
+.colorOneBorder {
+
+  border: 2px solid var(--colorOne);
+
+}
+
+.colorTwo {
+
+  color: var(--colorTwo);
+
+}
+
+.colorTwoBgLight {
+
+  background-color: var(--colorTwoLight);
+
+}
+
+.colorTwoBorder {
+
+  border: 2px solid var(--colorTwo);
+
+}
+
+
+.colorTwoBg {
+
+  background-color: var(--colorTwo);
+
+}
+
+.colorThree {
+
+  color: var(--colorThree);
+
+}
+
+.colorThreeBg {
+
+  background-color: var(--colorThree);
+
+}
+
+.colorThreeBgLight {
+
+  background-color: var(--colorThreeLight);
+
+}
+
+.colorThreeBorder {
+
+  border: 2px solid var(--colorThree);
+
+}
+
+.colorFour {
+
+  color: var(--colorFour);
+
+}
+
+.colorFourBg {
+
+  background-color: var(--colorFour);
+
+}
+
+.colorFourBgLight {
+
+  background-color: var(--colorFourLight);
+
+}
+
+.colorFourBorder {
+
+  border: 2px solid var(--colorFour);
+
+}
+
+.colorFive {
+
+  color: var(--colorFive);
+
+}
+
+.colorFiveBg {
+
+  background-color: var(--colorFive);
+
+}
+
+.colorFiveBgLight {
+
+  background-color: var(--colorFiveLight);
+
+}
+
+.colorFiveBorder {
+
+  border: 2px solid var(--colorFive);
+
+}
+
+
+.colorGrey {
+
+  color: var(--colorGrey);
+
+}
+
+.colorGreyBg {
+
+  background-color: var(--colorGrey);
+
+}
+
+.colorGreyBgLight {
+
+  background-color: var(--colorGreyLight);
+
+}
+
+.colorGreyBorder {
+
+  border: 2px solid var(--colorGrey);
+
+}
+
+.contentBoxHeader {
+
+  height: 30px;
+  width: 100%;
+  padding: 5px 0px;
+  border-radius: 40px 40px 0px 0px;
+  font-size: 0.4em;
+  display: block;
+  margin: 5px 5px 0px 5px;
+  border-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.minusTopBorder {
+
+  border-top: 0px;
 }
 
 @media only screen and (max-width: 900px) {

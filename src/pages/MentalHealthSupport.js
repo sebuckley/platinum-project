@@ -54,7 +54,7 @@ export const mentalHealthList = [{
     "supportName": "Mood Indicator",
     "image": "mood-color.png",
     "imageAlt": "helping hands",
-    "link": "./../moodindicator/",
+    "link": "./platinum-project/support/ThreeItems/",
     "linkTarget": "_blank",
     "linkDescription": ""
 
@@ -66,7 +66,7 @@ export const mentalHealthList = [{
     "supportName": "Three Positive Things...",
     "image": "threeitems.png",
     "imageAlt": "helping hands",
-    "link": "./../ThreeItems/",
+    "link": "./platinum-project/ThreeItems/",
     "linkTarget": "",
     "linkDescription": ""
 

@@ -1,6 +1,7 @@
 import { useState,  } from "react";
 import Navigation from "./Navigation.js";
 import IconContentBox from "../images/IconContentBox.js";
+import IconContentBox2 from "../images/IconContentBox2.js";
 import VideoContentBox from "../images/VideoContentBox.js";
 import BlogContentBox from "../images/BlogContentBox.js";
 import { mentalHealthList } from "./MentalHealthSupport.js";
@@ -25,7 +26,14 @@ const SupportPages = (props) => {
 
         if(listItem.boxType === "icon"){
 
-            return <IconContentBox name={listItem.supportName} supportType={listItem.supportType} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} />; 
+            if(listItem.linkDescription === "internal"){
+
+                return <IconContentBox2 name={listItem.supportName} supportType={listItem.supportType} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} />; 
+
+            }else{
+
+                return <IconContentBox name={listItem.supportName} supportType={listItem.supportType} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} />; 
+            }
 
         }else if(listItem.boxType === "video"){
 
@@ -135,7 +143,7 @@ const SupportPages = (props) => {
 
         <>
     
-            <Navigation supportType={ supportType } setSupportType={ setSupportType } setSupportTypeName={ setSupportTypeName }/>
+            <Navigation supportType={ supportType } setSupportType={ setSupportType } setSupportTypeName={ setSupportTypeName } supportTypeName={supportTypeName}/>
 
             <div className="contentWrapper">
 

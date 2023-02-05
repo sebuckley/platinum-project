@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const IconContentBox = (props) => {
 
@@ -33,31 +33,42 @@ const IconContentBox = (props) => {
     return (
 
         <>
-            
-            <div className={ props.color + ' contentBox'} style={ getStyle()}>
+            <div className="contentBoxWrapper">
 
-                <a href={ props.link } target={props.linkTarget}>
+                <div className={props.color.light + " " + props.color.border + ' blackText contentBoxHeader'}>
+                                
+                    <div>{props.supportType}</div>
 
-                    <div className="leftBox">
+                </div>
 
-                        <img  className="boxImage" src={require("./../images/" + props.imageFile)} width='auto' height='100%' alt={props.imageAlt}/>
+                <div className={ props.color.light + ' ' + props.color.border + ' contentBox minusTopBorder'} style={ getStyle()}>
 
-                    </div>
+                    <Link to={ props.link } target={props.linkTarget}>
 
-                    <div className="rightBox">
+                        <div className="leftBox">
 
-                        <div>
-
-                            <span>{ props.name }</span>
+                            <img  className="boxImage" src={require("./../images/" + props.imageFile)} width='90%' height='auto' alt={props.imageAlt}/>
 
                         </div>
 
-                    </div>
+                        <div className="rightBox">
 
-                </a>
-                
+                            <div>
+
+                                <span>{ props.name }</span>
+
+                            </div>
+
+                        </div>
+
+                    </Link>
+                    
+                </div>
+
             </div>
 
+           
+   
         </>
         
     );
