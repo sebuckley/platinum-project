@@ -846,7 +846,12 @@ ol ol {
   
 }
 
+#item {
 
+
+  width: 50%;
+  
+}
 
 .btnGroup > button {
 
@@ -904,6 +909,13 @@ ol ol {
 
 }
 
+.PositiveBtn {
+
+  background-color: green;
+  color: white;
+
+}
+
 .Positive a:before{
 
   background-color: green;
@@ -943,6 +955,13 @@ ol ol {
 
 }
 
+.IndiferentBtn {
+
+  background-color: orange;
+  color: white;
+
+}
+
 .Indiferent a:before{
 
   background-color: orange;
@@ -958,6 +977,13 @@ ol ol {
 }
 
 .Negative {
+
+  background-color: red;
+  color: white;
+
+}
+
+.NegativeBtn {
 
   background-color: red;
   color: white;
@@ -1322,6 +1348,12 @@ li.Indiferent:first-of-type a{
     align-items: center;
     justify-content: center;
   
+  }
+
+  #item {
+
+    width: 90%;
+
   }
 
   .batteryTop {

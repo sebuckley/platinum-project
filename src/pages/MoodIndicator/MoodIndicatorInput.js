@@ -71,10 +71,7 @@ const MoodIndicatorInput = (props) => {
             }
 
             let newArray = inputList.concat(itemObject);
-
             setInputList(newArray);
-
-           
             props.setNumber(newNumber);
 
             if(newNumber <= 10){
@@ -123,8 +120,6 @@ const MoodIndicatorInput = (props) => {
         props.setNumber(0);
         newNumber = 0;
   
-
-
     }
 
     const sortList = (array) => {
@@ -156,16 +151,12 @@ const MoodIndicatorInput = (props) => {
 
         }
 
-        console.log(redItem);
-
         for( let i = 0; i < redItem.length; i++){
     
             item = redItem[i].children
             item[0].style.background = "red";
 
         }
-
-
 
         if(orangeItem.length > 0){
 
