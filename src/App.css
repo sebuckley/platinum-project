@@ -1025,7 +1025,7 @@ li.Indiferent:first-of-type a{
 
 .colorOneBg {
 
-  background-color: var(--colorOne);
+  background-color: var(--colorOne) !important;
 
 }
 
@@ -1043,7 +1043,7 @@ li.Indiferent:first-of-type a{
 
 .colorTwo {
 
-  color: var(--colorTwo);
+  color: var(--colorTwo) !important;
 
 }
 
@@ -1068,7 +1068,7 @@ li.Indiferent:first-of-type a{
 
 .colorThree {
 
-  color: var(--colorThree);
+  color: var(--colorThree) !important;
 
 }
 
@@ -1092,7 +1092,7 @@ li.Indiferent:first-of-type a{
 
 .colorFour {
 
-  color: var(--colorFour);
+  color: var(--colorFour) !important;
 
 }
 
@@ -1116,7 +1116,7 @@ li.Indiferent:first-of-type a{
 
 .colorFive {
 
-  color: var(--colorFive);
+  color: var(--colorFive) !important;
 
 }
 
