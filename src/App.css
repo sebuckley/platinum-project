@@ -677,7 +677,7 @@ nav {
 
 button {
 
-  width: 150px;
+  min-width: 100px;
   height: 50px;
   margin: 30px;
   margin-bottom: 60px;
@@ -731,8 +731,7 @@ ol ol {
   display: block;
   height: 100px;
   background: black;
-  padding: .4em .4em .4em 2em;
-  *padding: .4em;
+
   margin: .5em 0;
   color: white;
   text-decoration: none;
@@ -1232,16 +1231,17 @@ li.Indiferent:first-of-type a{
     height: 20vh;
     margin: 10px;
     cursor: pointer;
-    font-size: 2em;
+    font-size: 1em;
   
   }
 
   .callNowWrapper {
 
-    width: 90%;
+    width: 80%;
     background-color: black;
     color: white;
     margin: auto;
+    margin-bottom: 10px;
     padding: 20px;
     border-radius: var(--borderRadius);
   
@@ -1249,9 +1249,10 @@ li.Indiferent:first-of-type a{
 
   .callNowWrapperWhite {
 
-    width: 90%;
+    width: 80%;
     color: black;
     margin: auto;
+    margin-top: 10px;
     padding: 20px;
     border-radius: var(--borderRadius);
   
@@ -1259,17 +1260,19 @@ li.Indiferent:first-of-type a{
 
   .thirdWrapper {
 
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 5px;
+    flex-wrap: wrap;
   
   }
 
   .third {
 
-    width: 30%;
+    width: 100%;
     margin: 10px;
   
   }
@@ -1355,7 +1358,11 @@ li.Indiferent:first-of-type a{
     
   }
 
+  .desciptionWord {
 
+    display: none;
+
+  }
 
   .emergencyContact {
 
@@ -1365,15 +1372,7 @@ li.Indiferent:first-of-type a{
   
   }
 
-  .thirdWrapper {
 
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  
-  }
   
   ol {
 

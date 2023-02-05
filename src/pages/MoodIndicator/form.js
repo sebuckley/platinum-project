@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' 
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro' 
 
 const InputForm = (props) => {
 
@@ -28,7 +28,7 @@ const InputForm = (props) => {
                 <br></br>
                 <p>How does this make you feel?</p>
                 <div className='btnGroup'>
-                <button onClick={ selectMood } className="mood">Positive <FontAwesomeIcon icon={solid('thumbs-up')} /></button><button onClick={ selectMood }  className="mood">Indiferent <FontAwesomeIcon icon={solid('question')} /></button><button onClick={ selectMood }  className="mood">Negative <FontAwesomeIcon icon={solid('thumbs-down')} /></button>
+                <button onClick={ selectMood } className="mood"><span className="desciptionWord">Positive</span> <FontAwesomeIcon icon={solid('thumbs-up')} /></button><button onClick={ selectMood }  className="mood"><span className="desciptionWord">Indiferent</span> <FontAwesomeIcon icon={solid('question')} /></button><button onClick={ selectMood }  className="mood"><span className="desciptionWord">Negative</span> <FontAwesomeIcon icon={solid('thumbs-down')} /></button>
                 </div>
                
                 <br></br>
