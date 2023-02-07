@@ -1,14 +1,14 @@
 export const mentalHealthList = [{
 
     "location": "national",
-    "boxType": "icon",
+    "boxType": "blog",
     "supportType": "Mental Health",
-    "supportName": "IAPT -Talking therapies Self Referral",
-    "image": "speaking.png",
+    "supportName": "Talking therapies - how can they help",
+    "image": "nhs.PNG",
     "imageAlt": "speaking",
-    "link": "#",
-    "linkTarget": "",
-    "linkDescription": ""
+    "link": "https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/talking-therapies-and-counselling/nhs-talking-therapies/",
+    "linkTarget": "_blank",
+    "linkDescription": "external"
 
 },{
 
@@ -37,14 +37,14 @@ export const mentalHealthList = [{
 },{
 
     "location": "national",
-    "boxType": "icon",
+    "boxType": "blog",
     "supportType": "Mental Health",
-    "supportName": "Discover simple steps to look after your mental health",
-    "image": "helping-hands.png",
+    "supportName": "Tips to improve your mental wellbeing",
+    "image": "top-tips.jpg",
     "imageAlt": "helping hands",
-    "link": "#",
-    "linkTarget": "",
-    "linkDescription": ""
+    "link": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/top-tips-to-improve-your-mental-wellbeing/",
+    "linkTarget": "_blank",
+    "linkDescription": "external"
 
 },{
 
@@ -99,12 +99,12 @@ export const mentalHealthList = [{
     "location": "national",
     "boxType": "icon",
     "supportType": "Mental Health",
-    "supportName": "Other Recources",
-    "image": "money.png",
-    "imageAlt": "money",
-    "link": "#",
+    "supportName": "Recources",
+    "image": "resources.png",
+    "imageAlt": "resources",
+    "link": "./../resources/",
     "linkTarget": "",
-    "linkDescription": ""
+    "linkDescription": "internal"
 
 },{
 
@@ -114,9 +114,9 @@ export const mentalHealthList = [{
     "supportName": "Your Beaker, My Beaker: Understanding why they’re different",
     "image": "Beakers.png",
     "imageAlt": "beakers image",
-    "link": "#",
-    "linkTarget": "",
-    "linkDescription": ""
+    "link": "https://chipur.com/your-beaker-my-beaker-why-its-crucial-to-understand-they-are-different/",
+    "linkTarget": "_blank",
+    "linkDescription": "external"
 
 }];
 

@@ -4,7 +4,7 @@ export const Bereavement = [{
     "boxType": "blog",
     "supportType": "Bereavement",
     "supportName": "NHS Grief after bereavement or loss",
-    "image": "nhs-grieve.PNG",
+    "image": "nhs.PNG",
     "imageAlt": "speaking",
     "link": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/grief-bereavement-loss/",
     "linkTarget": "_blank",
@@ -16,7 +16,7 @@ export const Bereavement = [{
     "supportType": "Bereavement",
     "supportName": "Understanding grief",
     "image": "grieving-man-1.jpg",
-    "imageAlt": "speaking",
+    "imageAlt": "spgriefeaking",
     "link": "https://www.cruse.org.uk/understanding-grief/",
     "linkTarget": "_blank",
     "linkDescription": "external"
@@ -28,7 +28,7 @@ export const Bereavement = [{
     "supportType": "Bereavement",
     "supportName": "THE BONDS OF SHARED GRIEF",
     "image": "Heart-Connections-The-Bonds-of-Shared-Grief.jpg",
-    "imageAlt": "speaking",
+    "imageAlt": "shared grief",
     "link": "https://www.compassionatefriends.org/blog/heart-connections-the-bonds-of-shared-grief/",
     "linkTarget": "_blank",
     "linkDescription": "external"
@@ -40,7 +40,7 @@ export const Bereavement = [{
     "supportType": "Bereavement",
     "supportName": "What I wisdh I knew at 18",
     "image": "Lizzie-what-I-wish-I-knew-at-18-Help2MakeSense.jpg",
-    "imageAlt": "speaking",
+    "imageAlt": "me at 18",
     "link": "https://help2makesense.org/grief-what-i-wish-id-known-at-18/",
     "linkTarget": "_blank",
     "linkDescription": "external "
@@ -52,7 +52,7 @@ export const Bereavement = [{
     "supportType": "Bereavement",
     "supportName": "What to expect and do",
     "image": "twowomen.jpg",
-    "imageAlt": "speaking",
+    "imageAlt": "two women",
     "link": "https://www.evermore.org/what-to-expect-and-do/",
     "linkTarget": "_blank",
     "linkDescription": "external"
@@ -64,7 +64,7 @@ export const Bereavement = [{
     "supportType": "Bereavement",
     "supportName": "Whats Your Grief",
     "image": "grief.png",
-    "imageAlt": "speaking",
+    "imageAlt": "grief",
     "link": "https://whatsyourgrief.com/blog/",
     "linkTarget": "_blank",
     "linkDescription": "Blog"

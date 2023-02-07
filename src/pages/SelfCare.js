@@ -1,4 +1,4 @@
-import IconContentBox from "../images/IconContentBox.js";
+import IconContentBox2 from "../images/IconContentBox2.js";
 import { SelfCareList } from "./SelfCareList.js";
 
 const SelfCare = (props) => {
@@ -7,7 +7,7 @@ const SelfCare = (props) => {
    
     const setBoxType = (listItem, useBoxColor) => {
 
-        return <IconContentBox name={listItem.supportName} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} height={listItem.boxHeight} heightType={listItem.boxHeightType} width={listItem.boxWidth} widthType={listItem.boxWidthType}/>;        
+        return <IconContentBox2 name={listItem.supportName} imageFile={listItem.image} key={listItem.index} linkTarget={listItem.linkTarget} imageAlt={listItem.imageAlt} link={listItem.link} color={useBoxColor} height={listItem.boxHeight} heightType={listItem.boxHeightType} width={listItem.boxWidth} widthType={listItem.boxWidthType}/>;        
 
     }
 
@@ -15,11 +15,11 @@ const SelfCare = (props) => {
 
         const boxColor = [
 
-            {"Mental Health": "colorOneBgLight colorOneBorder"},
-            {"Drug or Alcohol Abuse": "colorTwoBgLight colorTwoBorder"},
-            {"Bereavement": "colorThreeBgLight colorThreeBorder"},
-            {"Domestic Abuse or Violence": "colorFourBgLight colorFourBorder"},
-            {"Financial Worries, Debt or Gambling": "colorFiveBgLight colorFiveBorder"}
+            {"Mental Health": {"main": "colorOneBg", "light": "colorOneBgLight", "border": "colorOneBorder", "text": "colorOne"}},
+            {"Drug or Alcohol Abuse": {"main": "colorTwoBg", "light": "colorTwoBgLight", "border": "colorTwoBorder", "text": "colorTwo"}},
+            {"Bereavement": {"main": "colorThreeBg", "light": "colorThreeBgLight", "border": "colorThreeBorder", "text": "colorThree"}},
+            {"Domestic Abuse or Violence": {"main": "colorFourBg", "light": "colorFourBgLight", "border": "colorFourBorder", "text": "colorfor"}},
+            {"Financial Worries, Debt or Gambling": {"main": "colorFiveBg", "light": "colorFiveBgLight", "border": "colorFiveBorder", "text": "colorFive"}}
     
         ];
 

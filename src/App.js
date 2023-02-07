@@ -10,6 +10,7 @@ import EmergencyRouteRotherham from "./pages/EmergencyRouteRotherham.js";
 import EmergencyRouteSheffield from "./pages/EmergencyRouteSheffield.js";
 import Support from "./pages/Support.js";
 import SupportPage from "./pages/SupportPage.js";
+import Resources from "./pages/Resources.js";
 import SelfCare from "./pages/SelfCare.js";
 import ThreeItems from "./pages/ThreeItems/ThreeItems.js";
 import MoodIndicator from "./pages/MoodIndicator/MoodIndicator.js";
@@ -37,6 +38,7 @@ function App() {
             <Route path="support/sheffield" element={ <SupportPage Location="Sheffield" /> } />
             <Route path="support/threeitems" element={ <ThreeItems /> } />
             <Route path="support/moodindicator" element={ <MoodIndicator /> } />
+            <Route path="support/resources" element={ <Resources /> } />
             <Route path="support/selfcare" element={ <SelfCare /> } />
           </Route>
         </Routes>
