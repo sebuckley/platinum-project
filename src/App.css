@@ -585,6 +585,8 @@ nav {
   height: 16vw;
   position: relative;
   overflow: hidden;
+  background-position: center;
+  background-size: cover;
   
 
 }

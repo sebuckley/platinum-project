@@ -34,5 +34,17 @@ export const DrugAlcoholSupportServices = [{
     "linkTarget": "_blank",
     "linkDescription": "external"
 
+},{
+
+    "location": "national",
+    "boxType": "services",
+    "supportType": "Drug or Alcohol Abuse",
+    "supportName": "Barnsley Recovery College",
+    "image": "barnsley-recovery-college.png",
+    "imageAlt": "Barnsley Recovery College logo",
+    "link": "https://www.barnsleyrecoverycollege.nhs.uk/",
+    "linkTarget": "_blank",
+    "linkDescription": "external"
+
 }];
 

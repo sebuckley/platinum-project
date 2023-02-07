@@ -1,27 +1,9 @@
-const BlogContentBox = (props) => {
-
-    let windowWidth = window.innerWidth;
-    let actualWidth;
-    let actualType;
-
-    if(windowWidth < 1250){
-
-        actualWidth = 100;
-        actualType = "%";
-
-    }else{
-
-        actualWidth = props.width;
-        actualType = props.widthType ;
-
-    }
+const BlogContentBox = (props) => { 
 
     const getStyle = (backgroundImage) => {
 
         let styleObject = {
 
-            width: "" + actualWidth + actualType + "",
-            height: "" + props.height + props.heightType + "",
             background: "url(" + backgroundImage + ")",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -32,21 +14,6 @@ const BlogContentBox = (props) => {
         return styleObject;
 
     }
-
-    const getStyle2 = () => {
-
-        let styleObject2 = {
-
-            height: "" + props.height + props.heightType + "",
-            width: "100%"
-
-        }
-
-        return styleObject2
-
-    }
-
-   
 
     return (
 
