@@ -84,7 +84,7 @@ const VideoContentBox = (props) => {
 
                             <div className='nameBox2'>
 
-                                <img src={require("./../images/play-button.png")} width="150px" height="150px" alt="play button" />
+                                <img src={require("./../images/play-button.png")} width="90px" height="90px" alt="play button" />
 
                             </div>
 

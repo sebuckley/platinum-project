@@ -3,11 +3,11 @@ export const DomesticAbuseViolence = [{
         "location": "national",
         "boxType": "icon",
         "supportType": "Domestic Abuse or Violence",
-        "supportName": "National domestic Abuse Helpline",
+        "supportName": "National Domestic Abuse Helpline",
         "image": "helplines.png",
         "imageAlt": "speaking",
         "link": "https://www.nationaldahelpline.org.uk/ ",
-        "linkTarget": "",
+        "linkTarget": "_blank",
         "linkDescription": "external"
 
     },{
@@ -15,11 +15,11 @@ export const DomesticAbuseViolence = [{
         "location": "national",
         "boxType": "blog",
         "supportType": "Domestic Abuse or Violence",
-        "supportName": "What is abuse",
+        "supportName": "What is abuse?",
         "image": "what-is-abuse.jpeg",
         "imageAlt": "speaking",
         "link": "https://www.nationaldahelpline.org.uk/en/What-is-abuse",
-        "linkTarget": "",
+        "linkTarget": "_blank",
         "linkDescription": "external"
     
     },{
@@ -31,7 +31,7 @@ export const DomesticAbuseViolence = [{
         "image": "SWA-LD075-400x275.jpg",
         "imageAlt": "speaking",
         "link": "https://www.womensaid.org.uk/information-support/the-survivors-handbook/im-worried-about-someone-else/",
-        "linkTarget": "",
+        "linkTarget": "_blank",
         "linkDescription": "external"
     
     },{
@@ -43,7 +43,7 @@ export const DomesticAbuseViolence = [{
         "image": "govuk.PNG",
         "imageAlt": "speaking",
         "link": "https://www.gov.uk/guidance/domestic-abuse-how-to-get-help",
-        "linkTarget": "",
+        "linkTarget": "_blank",
         "linkDescription": "external"
     
 
@@ -56,7 +56,7 @@ export const DomesticAbuseViolence = [{
         "image": "victims-dont-leave.png",
         "imageAlt": "speaking",
         "link": "https://youtu.be/V1yW5IsnSjo",
-        "linkTarget": "",
+        "linkTarget": "_blank",
         "linkDescription": "external"
     
 
