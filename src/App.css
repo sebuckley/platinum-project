@@ -540,6 +540,12 @@ nav {
 
 }
 
+.navBtn:hover {
+
+  cursor: pointer;
+
+}
+
 
 .contentWrapper {
 

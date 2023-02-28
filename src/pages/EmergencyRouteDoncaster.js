@@ -59,11 +59,11 @@ const EmergencyRouteDoncaster = () => {
 
                 <div className='emergencyButtonsWrapperOuter'>
 
-                    <label className="emergencyText">Is this an <b>EMERGENCY</b> where you or someone else is unsafe or life is at risk?</label>
+                    <label className="emergencyText">Is this an <b>emergency</b> where you or someone else is unsafe or life is at risk?</label>
 
                     <div className='emergencyButtonWrapper'>
 
-                        <button type="button" onClick={()=> setRoute("critical")} className='emergencyButton yes'>Yes</button><button type="button" onClick={()=> setRoute("nonecritical")} className='emergencyButton no'>No</button>
+                        <button type="button" onClick={()=> setRoute("critical")} className='emergencyButton yes'>Yes emergency</button><button type="button" onClick={()=> setRoute("nonecritical")} className='emergencyButton no'>No emergency</button>
 
                     </div>
 
